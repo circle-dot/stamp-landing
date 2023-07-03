@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "geostamp.network",
+		template: "%s | geostamp.network",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Geo Stamp Network",
 	openGraph: {
-		title: "chronark.com",
+		title: "geostamp.network",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Geo Stamp Network",
+		url: "https://geostamp.network",
+		siteName: "geostamp.network",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://geostamp.network/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -64,14 +64,21 @@ export default function RootLayout({
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
 			<head>
 				<Analytics />
+				<style>
+					{`
+            .override .watermark .titlebar {
+              display: none !important;
+            }
+          `}
+				</style>
 			</head>
 			<body
-				className={`bg-black ${
-					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-				}`}
+				className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+					}`}
 			>
 				{children}
 			</body>
+
 		</html>
 	);
 }
