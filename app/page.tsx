@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import Logo from "./components/Logo";
 
 const navigation = [
 	{ name: "Projects", href: "/projects" },
@@ -28,15 +29,18 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
+			<div className="center">
+				<Logo />
+			</div>
 			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
 				Geo Stamp Network
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
-				<div className="override">
+				{/* <div className="override">
 					<iframe width="640" height="480" src="https://sketchfab.com/models/c54ea3927b854b76b531993daa793f2e/embed?autostart=1&preload=1&transparent=1&ui_theme=dark&ui_infos=0" allow="autoplay; fullscreen; vr"></iframe>
-				</div>
+				</div> */}
 
 				<h2 className="text-sm text-zinc-500  align-bottom">
 					by{" "}
@@ -45,7 +49,7 @@ export default function Home() {
 						href="https://twitter.com/0xPetra"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						0xPetra
+						0xPetras
 					</Link>
 				</h2 >
 			</div>
