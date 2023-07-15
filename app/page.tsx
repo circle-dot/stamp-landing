@@ -44,13 +44,12 @@ export default function Home() {
 				</div> */}
 
 				<h2 className="text-sm text-zinc-500  align-bottom">
-					by{" "}
 					<Link
 						target="_blank"
 						href="https://twitter.com/0xPetra"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						0xPetras
+						contact
 					</Link>
 				</h2 >
 			</div>
