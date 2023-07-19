@@ -43,11 +43,11 @@ export default function Home() {
 					<iframe width="640" height="480" src="https://sketchfab.com/models/c54ea3927b854b76b531993daa793f2e/embed?autostart=1&preload=1&transparent=1&ui_theme=dark&ui_infos=0" allow="autoplay; fullscreen; vr"></iframe>
 				</div> */}
 
-				<h2 className="text-sm align-bottom text-white">
+				<h2 className="text-md align-bottom text-white">
 					<Link
 						target="_blank"
 						href="https://twitter.com/0xPetra"
-						className="underline duration-500 hover:text-zinc-300"
+						className="text-white duration-500 hover:text-zinc-300 hover:text-lg"
 					>
 						contact
 					</Link>
