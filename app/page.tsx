@@ -10,7 +10,7 @@ const navigation = [
 
 export default function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tr from-[#1A2467] via-zinc-600/20 to-[#1A2467]">
 			<div className="center">
 				<Logo />
 			</div>
@@ -33,7 +33,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-[#FDE884] cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
 				Geo Stamp Network
 			</h1>
 
@@ -43,7 +43,7 @@ export default function Home() {
 					<iframe width="640" height="480" src="https://sketchfab.com/models/c54ea3927b854b76b531993daa793f2e/embed?autostart=1&preload=1&transparent=1&ui_theme=dark&ui_infos=0" allow="autoplay; fullscreen; vr"></iframe>
 				</div> */}
 
-				<h2 className="text-sm text-zinc-500  align-bottom">
+				<h2 className="text-sm align-bottom text-white">
 					<Link
 						target="_blank"
 						href="https://twitter.com/0xPetra"
