@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "geostamp.network",
-		template: "%s | geostamp.network",
+		default: "stamp.network",
+		template: "%s | stamp.network",
 	},
-	description: "Geo Stamp Network",
+	description: "Stamp Network",
 	openGraph: {
-		title: "geostamp.network",
+		title: "stamp.network",
 		description:
-			"Geo Stamp Network",
-		url: "https://geostamp.network",
-		siteName: "geostamp.network",
+			"Stamp Network",
+		url: "https://stamp.network",
+		siteName: "stamp.network",
 		images: [
 			{
-				url: "https://geostamp.network/og.png",
+				url: "https://stamp.network/og.png",
 				width: 1920,
 				height: 1080,
 			},
