@@ -20,7 +20,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={300}
 			/>
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-[#FDE884] cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+			<h1 className="z-10 text-4xl text-transparent duration-1000 cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
 				Stamp Network
 			</h1>
 
