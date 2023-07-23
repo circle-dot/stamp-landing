@@ -14,12 +14,12 @@ My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](h
 
 
 ```sh-session
-git clone https://github.com/chronark/stamp.network.git
+git clone https://github.com/0xpetra/stamp.network.git
 cd stamp.network
 ```
 
 
-Create a `.env` file similar to [`.env.example`](https://github.com/chronark/stamp.network/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/0xpetra/stamp.network/blob/main/.env.example).
 
 Then install dependencies and run the development server:
 ```sh-session
