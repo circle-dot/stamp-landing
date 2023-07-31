@@ -7,6 +7,7 @@ const navigation = [
 	{ name: "Projects", href: "/projects" },
 	{ name: "Contact", href: "/contact" },
 ];
+// ᔑ ᒥ ᐱ ᗰ ᑭ
 
 export default function Home() {
 	return (
@@ -22,7 +23,7 @@ export default function Home() {
 			/>
 
 			<h1 className="z-10 text-4xl bg-[#fff] py-5 text-transparent duration-10000 cursor-default text-edge-outline animate-title sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
-				ᔑ ᒥ ᐱ ᗰ ᑭ
+				Stamp Networkrk
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
