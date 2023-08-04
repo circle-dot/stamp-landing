@@ -35,7 +35,7 @@ export default function Home() {
 				<h2 className="text-md align-bottom text-white">
 					<Link
 						target="_blank"
-						href="https://twitter.com/0xPetra"
+						href="https://twitter.com/stampDOTnetwork"
 						className="text-white duration-500 hover:text-zinc-300 hover:text-lg"
 					>
 						contact
