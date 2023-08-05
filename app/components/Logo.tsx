@@ -1,4 +1,5 @@
 import * as React from "react"
+
 const SvgComponent = (props: any) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -6,6 +7,7 @@ const SvgComponent = (props: any) => (
         height={148}
         fill="none"
         {...props}
+        className="heart"
     >
         <g fill="#FDE884" clipPath="url(#a)">
             <path
