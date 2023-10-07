@@ -26,3 +26,8 @@
   animation: glow 3s infinite;
   fill: #FDE884;
 }
+
+.hover-scale:hover {
+  transform: scale(1.2); /* or whatever scale factor you prefer */
+  transition: transform 0.3s; /* optional: for a smooth transition effect */
+}

@@ -27,20 +27,35 @@ export default function Home() {
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-			<div className="my-16 text-center animate-fade-in">
-				{/* <div className="override">
-					<iframe width="640" height="480" src="https://sketchfab.com/models/c54ea3927b854b76b531993daa793f2e/embed?autostart=1&preload=1&transparent=1&ui_theme=dark&ui_infos=0" allow="autoplay; fullscreen; vr"></iframe>
-				</div> */}
+			<div className="text-center animate-fade-in">
 
-				<h2 className="text-md align-bottom text-white">
-					<Link
-						target="_blank"
-						href="https://twitter.com/stampDOTnetwork"
-						className="text-white duration-500 hover:text-zinc-300 hover:text-lg"
-					>
-						contact
-					</Link>
-				</h2 >
+			<h1 className="z-10 text-md text-white py-5 cursor-default">
+				The home for digital entities
+				<br />
+				A blockchain for Autonomous Agents and DePIN projects
+			</h1>
+	
+
+			<h2 className="text-md align-bottom text-white hover-scale">
+				<Link
+					target="_blank"
+					href="https://docs.stamp.network"
+					className="hover:text-white duration-500 text-[#FDE884]"
+				>
+					docs
+				</Link>
+			</h2>
+
+			<h2 className="text-md align-bottom text-white hover-scale">
+				<Link
+					target="_blank"
+					href="https://twitter.com/stampDOTnetwork"
+					className="hover:text-white duration-500 text-[#FDE884]"
+				>
+					contact
+				</Link>
+			</h2>
+
 			</div>
 		</div>
 	);
