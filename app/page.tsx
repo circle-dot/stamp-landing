@@ -29,14 +29,14 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="text-center animate-fade-in">
 
-			<h1 className="z-10 text-md text-white py-5 cursor-default">
-				The home for digital entities
-				<br />
-				A blockchain for Autonomous Agents and DePIN projects
-			</h1>
-	
+				<h1 className="z-10 text-md text-white py-5 cursor-default">
+					The home for digital entities
+					<br />
+					Onboarding Autonomous Agents to transact and coordinate onchain
+				</h1>
 
-			<h2 className="text-md align-bottom text-white hover-scale">
+
+				{/* <h2 className="text-md align-bottom text-white hover-scale">
 				<Link
 					target="_blank"
 					href="https://docs.stamp.network"
@@ -44,17 +44,17 @@ export default function Home() {
 				>
 					docs
 				</Link>
-			</h2>
+			</h2> */}
 
-			<h2 className="text-md align-bottom text-white hover-scale">
-				<Link
-					target="_blank"
-					href="https://twitter.com/stampDOTnetwork"
-					className="hover:text-white duration-500 text-[#FDE884]"
-				>
-					contact
-				</Link>
-			</h2>
+				<h2 className="text-md align-bottom text-white hover-scale">
+					<Link
+						target="_blank"
+						href="https://twitter.com/0xPetra"
+						className="hover:text-white duration-500 text-[#FDE884]"
+					>
+						contact
+					</Link>
+				</h2>
 
 			</div>
 		</div>
