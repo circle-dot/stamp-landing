@@ -30,9 +30,7 @@ export default function Home() {
 			<div className="text-center animate-fade-in">
 
 				<h1 className="z-10 text-md text-white py-5 cursor-default">
-					The home for digital entities
-					<br />
-					Onboarding Autonomous Agents to transact and coordinate onchain
+					Attestation engine powering WoT (web of trust)
 				</h1>
 
 
@@ -49,7 +47,7 @@ export default function Home() {
 				<h2 className="text-md align-bottom text-white hover-scale">
 					<Link
 						target="_blank"
-						href="https://twitter.com/0xPetra"
+						href="mailto:petra@circledot.tech"
 						className="hover:text-white duration-500 text-[#FDE884]"
 					>
 						contact
