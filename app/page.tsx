@@ -30,7 +30,7 @@ export default function Home() {
 			<div className="text-center animate-fade-in">
 
 				<h1 className="z-10 text-md text-white py-5 cursor-default">
-					Attestation engine powering Web of Trust (WoT) networks
+					Web of Trust for communities
 				</h1>
 
 
