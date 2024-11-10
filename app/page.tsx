@@ -29,8 +29,8 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="text-center animate-fade-in">
 
-				<h1 className="z-10 text-md text-white py-5 cursor-default">
-					Web of Trust for communities
+				<h1 className="z-10 text-md text-white py-5 cursor-default font-mono">
+					Attestation engine powering WoT (web of trust) for communities
 				</h1>
 
 
@@ -44,15 +44,27 @@ export default function Home() {
 				</Link>
 			</h2> */}
 
-				<h2 className="text-md align-bottom text-white hover-scale">
-					<Link
-						target="_blank"
-						href="mailto:petra@circledot.tech"
-						className="hover:text-white duration-500 text-[#FDE884]"
-					>
-						contact
-					</Link>
-				</h2>
+				<div className="my-5">
+					<h2 className="text-md align-bottom text-white hover-scale font-mono">
+						<Link
+							href="https://app.stamp.network/"
+							className="hover:text-white duration-500 text-[#FDE884]"
+						>
+							[ Launch App ]
+						</Link>
+					</h2>
+				</div>
+
+				<div className="my-5">
+					<h2 className="text-md align-bottom text-white hover-scale font-mono">
+						<Link
+							href="https://docs.stamp.network/"
+							className="hover:text-white duration-500 text-[#FDE884]"
+						>
+							[ Docs ]
+						</Link>
+					</h2>
+				</div>
 
 			</div>
 		</div>
